@@ -117,7 +117,7 @@ Playwright loads these values using dotenv.
 
 ```
 git clone <your-repo-url>
-cd qa-automation-vanilla-auth
+cd playwright-test-automation
 ```
 
 ## 2. Install Server Dependencies
@@ -223,3 +223,4 @@ It is intentionally framework-free on the frontend to demonstrate automation ski
 ---
 
 End of README
+
