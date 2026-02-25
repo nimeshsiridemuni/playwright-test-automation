@@ -77,5 +77,19 @@ export default defineConfig({
   //   url: 'http://localhost:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
+  
 });
 
+require('dotenv').config()
+const { defineConfig } = require('@playwright/test')
+
+module.exports = defineConfig({
+  testDir: './tests',
+  use: {
+    baseURL: 'http://localhost:3000',
+    httpCredentials: {
+      username: process.env.BASIC_AUTH_USER,
+      password: process.env.BASIC_AUTH_PASS
+    }
+  }
+})

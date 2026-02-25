@@ -1,13 +1,33 @@
 {
   "dependencies": {
-    "dotenv": "^17.3.1",
     "node": "^24.12.0",
     "playwright": "^1.58.2"
   },
   "devDependencies": {
     "@clerk/testing": "^1.14.1",
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.0.3"
+    "@types/node": "^25.0.3",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.3.1"
   },
-  "scripts": {}
+  "scripts": {},
+  "name": "playwright-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimeshsiridemuni/playwright-test-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nimeshsiridemuni/playwright-test-automation/issues"
+  },
+  "homepage": "https://github.com/nimeshsiridemuni/playwright-test-automation#readme"
 }
