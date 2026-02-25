@@ -210,7 +210,7 @@ Potential extensions:
 
 # Purpose
 
-This repository is intended to showcase practical QA Automation engineering skills, including:
+This repository is intended to showcase my initial QA Automation skills. I will add more and more improved versions of frameworks using Playwright.
 
 - Test design
 - Secure authentication handling
@@ -221,5 +221,6 @@ This repository is intended to showcase practical QA Automation engineering skil
 It is intentionally framework-free on the frontend to demonstrate automation skills without relying on UI abstractions.
 
 ---
+
 
 
